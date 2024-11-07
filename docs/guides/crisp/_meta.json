@@ -1,0 +1,53 @@
+[
+    {
+        "type": "file",
+        "name": "introduction",
+        "label": "产品介绍"
+    },
+    {
+        "type": "divider"
+    },
+    {
+        "type": "file",
+        "name": "quickstart",
+        "label": "创建项目"
+    },
+    {
+        "type": "file",
+        "name": "general",
+        "label": "基础设置"
+    },
+    {
+        "type": "file",
+        "name": "keyword",
+        "label": "自动回复"
+    },
+    {
+        "type": "file",
+        "name": "ai",
+        "label": "智能回复"
+    },
+    {
+        "type": "file",
+        "name": "option",
+        "label": "选项管理"
+    },
+    {
+        "type": "file",
+        "name": "team",
+        "label": "成员管理"
+    },
+    {
+        "type": "file",
+        "name": "premium",
+        "label": "套餐升级"
+    },
+    {
+        "type": "divider"
+    },
+    {
+        "type": "file",
+        "name": "wallet",
+        "label": "钱包信息"
+    }
+]
