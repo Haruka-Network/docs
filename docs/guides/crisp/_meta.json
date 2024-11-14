@@ -5,6 +5,11 @@
         "label": "产品介绍"
     },
     {
+        "type": "file",
+        "name": "tos",
+        "label": "服务条款"
+    },
+    {
         "type": "divider"
     },
     {
