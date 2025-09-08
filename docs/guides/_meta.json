@@ -7,6 +7,11 @@
     {
         "type": "dir",
         "name": "crisp",
-        "label":"Crisp 插件"
+        "label":"Crisp 客服智能插件"
+    },
+    {
+        "type": "dir",
+        "name": "images",
+        "label":"CDN 图片存储服务"
     }
 ]
