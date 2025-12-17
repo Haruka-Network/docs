@@ -3,5 +3,20 @@
         "type": "file",
         "name": "introduction",
         "label": "关于我们"
+    },
+    {
+        "type": "file",
+        "name": "aup",
+        "label": "使用政策"
+    },
+    {
+        "type": "file",
+        "name": "tos",
+        "label": "服务条款"
+    },
+    {
+        "type": "file",
+        "name": "pp",
+        "label": "隐私政策"
     }
 ]

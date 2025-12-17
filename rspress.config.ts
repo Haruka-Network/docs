@@ -20,7 +20,7 @@ export default defineConfig({
     enableContentAnimation: true,
     enableAppearanceAnimation: false,
     footer: {
-      message: "© 2024 Haruka Hosting Ltd. All Rights Reserved.",
+      message: "© 2024 Haruka Network LIMITED. All Rights Reserved.",
     },
     hideNavbar: "auto",
     socialLinks: [

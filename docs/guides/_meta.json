@@ -6,6 +6,11 @@
     },
     {
         "type": "dir",
+        "name": "vps",
+        "label":"云实例虚拟服务器"
+    },
+    {
+        "type": "dir",
         "name": "crisp",
         "label":"Crisp 客服智能插件"
     },
