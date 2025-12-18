@@ -1,0 +1,61 @@
+# Basic Settings
+
+The basic settings allow you to quickly integrate with the Crisp and Telegram platforms.
+
+## Installing the Crisp Plugin
+
+Click the **"Install"** button to be redirected to the Crisp platform. Please click "Continue" to authorize our access to your Crisp sessions.
+
+![](/20241107-144227.png) 
+
+We will request access to the following permissions:
+
+* Read conversations
+* Read and write messages
+
+## Enable Project
+
+This is the master switch for your project. If disabled, the entire project will be deactivated, and no features (including keyword replies, AI smart replies, or Telegram notifications) will be triggered.
+
+## Set Project Name
+
+Set a project name (identical to the one used during creation) to help distinguish between projects if you manage multiple ones.
+
+## Set Website ID
+
+After installing the plugin, you must configure your **Crisp Website ID** for the service to function. You can retrieve this from the [Crisp Dashboard](https://app.crisp.chat/website/). The format should be `xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx` (8-4-4-4-12).
+
+## Set Reply Name
+
+Customizes the name displayed when the plugin sends a reply, helping to enhance your brand identity.
+
+## Set Reply Avatar
+
+Currently, direct uploads are not supported, but you can customize the avatar URL displayed during plugin replies to improve brand image.
+
+## Enter Telegram Group ID
+
+If you wish to receive push notifications and reply via Telegram, please follow these steps:
+
+1. Create a Telegram group, search for `@haruka_ai_bot`, and add it to the chat.
+2. Go to group settings (Manage Group), enable **Topics**, and save.
+3. In the "Administrators" section, set the bot as an admin and ensure it has **Manage Topics** permissions.
+4. Right-click the **General** topic and select **Pin**.
+5. Enter the General topic, type `/ping`, and the bot will return your **Group ID**. Note that the ID includes a "-" (negative sign), which must be included when saving.
+
+## Human Intervention Toggle
+
+* **Free Version**: Time limit is fixed at 1800 seconds (30 minutes).
+* **Pro/Paid Version**: Fully customizable, with a minimum effective time of 60 seconds.
+
+**Purpose**: This setting determines how long AI smart replies remain disabled after a human agent (via Crisp or Telegram) has intervened in the conversation.
+
+## Welcome Mode
+
+If you want users to receive an automated welcome message upon visiting your website, place the Welcome Mode script directly below your website's Crisp script.
+
+**Trigger Types**:
+
+* **No Action**: No notification is sent upon visit.
+* **Reply Text**: Sends a specific text message upon visit.
+* **Reply Options**: Displays specific interactive options upon visit.

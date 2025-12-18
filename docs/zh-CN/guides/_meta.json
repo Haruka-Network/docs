@@ -1,0 +1,22 @@
+[
+    {
+        "type": "dir",
+        "name": "start",
+        "label":"开始使用"
+    },
+    {
+        "type": "dir",
+        "name": "vps",
+        "label":"云实例虚拟服务器"
+    },
+    {
+        "type": "dir",
+        "name": "crisp",
+        "label":"Crisp 客服智能插件"
+    },
+    {
+        "type": "dir",
+        "name": "images",
+        "label":"CDN 图片存储服务"
+    }
+]

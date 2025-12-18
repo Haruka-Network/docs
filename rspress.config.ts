@@ -4,25 +4,23 @@ import { defineConfig } from "rspress/config";
 import { pluginCSS } from "./plugins/css";
 
 export default defineConfig({
+  lang: "en-US",
   root: path.join(__dirname, "docs"),
   title: "Haruka Network",
-  description: "综合文档",
+  description: "Haruka Network Documentation",
   icon: "https://ai.haruka.cloud/logo-simple.png",
   logo: "https://ai.haruka.cloud/logo-simple.png",
   logoText: "Haruka Network Documentation",
   markdown: {
     checkDeadLinks: true,
   },
-  ssg: {
-    strict: true,
-  },
   themeConfig: {
+    lastUpdated: true,
+    enableScrollToTop: true,
     enableContentAnimation: true,
-    enableAppearanceAnimation: false,
     footer: {
-      message: "© 2024 Haruka Network LIMITED. All Rights Reserved.",
+      message: "© 2025 Haruka Network LIMITED. All Rights Reserved.",
     },
-    hideNavbar: "auto",
     socialLinks: [
       {
         icon: "github",
@@ -30,6 +28,26 @@ export default defineConfig({
         content: "https://github.com/Haruka-Network/docs",
       },
     ],
+    locales: [
+      {
+        lang: "en-US",
+        label: "English",
+      },
+      {
+        lang: "zh-CN",
+        label: "简体中文",
+      },
+    ],
   },
+  locales: [
+    {
+      lang: "en-US",
+      label: "English",
+    },
+    {
+      lang: "zh-CN",
+      label: "简体中文",
+    },
+  ],
   plugins: [pluginCSS()],
 });

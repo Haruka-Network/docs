@@ -1,0 +1,70 @@
+{
+    "开始使用": {
+        "en-US": "Getting Started",
+        "zh-CN": "开始使用"
+    },
+    "产品介绍": {
+        "en-US": "Products",
+        "zh-CN": "产品介绍"
+    },
+    "云实例虚拟服务器": {
+        "en-US": "Cloud Instances",
+        "zh-CN": "云实例虚拟服务器"
+    },
+    "Crisp 客服智能插件": {
+        "en-US": "Crisp AI Plugin",
+        "zh-CN": "Crisp 客服智能插件"
+    },
+    "CDN 图片存储服务": {
+        "en-US": "CDN Image Storage",
+        "zh-CN": "CDN 图片存储服务"
+    },
+    "关于我们": {
+        "en-US": "About Us",
+        "zh-CN": "关于我们"
+    },
+    "使用政策": {
+        "en-US": "Acceptable Use Policy",
+        "zh-CN": "使用政策"
+    },
+    "服务条款": {
+        "en-US": "Terms of Service",
+        "zh-CN": "服务条款"
+    },
+    "隐私政策": {
+        "en-US": "Privacy Policy",
+        "zh-CN": "隐私政策"
+    },
+    "创建项目": {
+        "en-US": "Create Project",
+        "zh-CN": "创建项目"
+    },
+    "基础设置": {
+        "en-US": "General Settings",
+        "zh-CN": "基础设置"
+    },
+    "自动回复": {
+        "en-US": "Keyword Reply",
+        "zh-CN": "自动回复"
+    },
+    "智能回复": {
+        "en-US": "AI Reply",
+        "zh-CN": "智能回复"
+    },
+    "选项管理": {
+        "en-US": "Options",
+        "zh-CN": "选项管理"
+    },
+    "成员管理": {
+        "en-US": "Team",
+        "zh-CN": "成员管理"
+    },
+    "套餐升级": {
+        "en-US": "Upgrade",
+        "zh-CN": "套餐升级"
+    },
+    "钱包信息": {
+        "en-US": "Wallet",
+        "zh-CN": "钱包信息"
+    }
+}

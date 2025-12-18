@@ -1,0 +1,55 @@
+# Smart Reply
+
+After receiving a Crisp message, the system first attempts to match **Keyword Replies**. If no match is found, it proceeds to the **AI Smart Reply**.
+
+**Please Note:**
+
+* Smart replies consume your account balance. Costs vary depending on your subscription plan.
+* The average cost is approximately **￥0.002 per text reply**, making it an extremely cost-effective solution.
+
+## How the AI Context is Built:
+
+The AI constructs its response based on the following data points:
+
+1. **System Prompts**: Your configured AI instructions.
+2. **Knowledge Base**: Relevant snippets retrieved from your custom data.
+3. **Crisp Metadata**: (Information provided by Crisp, not actively collected by us)
+* User Profile (Reported by your website or the user).
+* Geographic Location.
+* Operating System & Browser.
+* Additional Data (Custom data attributes reported by your site).
+
+
+4. **User Message & Timestamp**: The actual content and time of the query.
+
+## AI System Prompts
+
+Effective prompts can significantly improve communication efficiency. Below is a recommended template:
+
+```text
+As a support agent, please always reply in a gentle and patient manner, ensuring the user feels respected and understood. 
+Please use plain text only; avoid using Markdown or complex formatting.
+Listen actively to user issues, ask for details patiently, and provide clear, detailed answers or guidance.
+Prioritize the provided Knowledge Base content for accuracy. If the information is not available, direct the user to check here: [Your URL]
+
+In the first reply to a user, include the following text to guide them on using keywords: 
+"Reply 'Menu' for automated help. Human agents may be unavailable momentarily; please wait or use our menu system and knowledge base."
+
+```
+
+## AI Knowledge Base
+
+You can convert your documentation into an **Embedding Model**. You only need to provide the "Title" and "Content." This process consumes a very small portion of your balance but greatly improves AI accuracy.
+
+## Summary
+
+You can choose to use **Prompts only** without a Knowledge Base. However, if you use the **Knowledge Base**, you must also configure a **Prompt** so the AI understands its identity and how to use the retrieved information.
+
+### Comparison: Knowledge Base Embedding vs. Pure Prompting
+
+| Feature | Knowledge Base (Embeddings) | Pure Prompt Replies |
+| --- | --- | --- |
+| **Logic** | Vectorizes data. Retrieves relevant snippets first, then sends them to the AI with the prompt. | Writes the entire knowledge base into the prompt. AI references the full context every time. |
+| **Cost** | Only consumes tokens for **Question + Specific Snippets**. More cost-effective for large datasets. | Consumes tokens for the **Entire Dataset** per message. Costs increase significantly as the base grows. |
+| **Speed** | Extra retrieval step, but smaller context leads to **faster model inference**. | No retrieval step, but a massive context can **significantly slow down** model processing. |
+| **Quality** | Responses are **focused and relevant**, staying strictly on topic based on matched data. | Provides comprehensive info, but prone to **redundancy, rambling, or "hallucinations."** |

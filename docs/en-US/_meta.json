@@ -1,0 +1,31 @@
+[
+  {
+    "text": "开始使用",
+    "link": "/guides/start/introduction",
+    "activeMatch": "/guides/start/",
+    "position": "left",
+    "tag": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'><path fill='currentColor' d='M12 2a7 7 0 0 1 6.992 7.339A6 6 0 0 1 17 21H7A6 6 0 0 1 5.008 9.339A7 7 0 0 1 12 2m0 2a5 5 0 0 0-4.994 5.243l.07 1.488l-1.404.494A4.002 4.002 0 0 0 7 19h10a4 4 0 1 0-3.796-5.265l-1.898-.633A6 6 0 0 1 17 9a5 5 0 0 0-5-5'/></svg>"
+  },
+  {
+    "text": "产品介绍",
+    "items": [
+      {
+        "text": "云实例虚拟服务器",
+        "link": "/guides/vps/introduction",
+        "activeMatch": "/guides/vps/"
+      },
+      {
+        "text": "Crisp 客服智能插件",
+        "link": "/guides/crisp/introduction",
+        "activeMatch": "/guides/crisp/"
+      },
+      {
+        "text": "CDN 图片存储服务",
+        "link": "/guides/images/introduction",
+        "activeMatch": "/guides/images/"
+      }
+    ],
+    "position": "left",
+    "tag": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'><path fill='currentColor' d='M19 22H5a3 3 0 0 1-3-3V3a1 1 0 0 1 1-1h14a1 1 0 0 1 1 1v12h4v4a3 3 0 0 1-3 3m-1-5v2a1 1 0 1 0 2 0v-2zm-2 3V4H4v15a1 1 0 0 0 1 1zM6 7h8v2H6zm0 4h8v2H6zm0 4h5v2H6z'/></svg>"
+  }
+]

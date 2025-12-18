@@ -1,0 +1,36 @@
+# Auto-Reply
+
+After receiving a Crisp message, our system prioritizes matching the following keywords for automated responses.
+
+**Note: Keyword-matched replies do not consume your platform balance. You can use them freely.**
+
+## Creating Options
+
+### Drag-and-Drop Sorting
+
+You can adjust the triggering priority of your keywords by dragging them to reorder the list.
+
+### Trigger Keywords
+
+You can use regular expressions (Regex) or simple matching rules:
+
+* `^Menu$`: Triggers only when the message is exactly the word "Menu".
+* `Hello`: Triggers on any message containing "Hello" (e.g., "Hello, how are you?" or "Say Hello").
+* `Help|Support`: Triggers on messages containing either "Help" or "Support" (e.g., "I need Help" or "Support please").
+
+### Option Types
+
+Once a keyword is matched, you can select the response type:
+
+* **No Action**: Matches the content but does not send a response.
+* **Reply Text**: Responds with a specific text message.
+* **Reply Options**: Responds with interactive clickable options.
+* **Disable Smart Reply**: Matches the content and then deactivates AI smart replies for that specific conversation.
+
+## Test Matching Tool
+
+Keyword triggers are matched in order from top to bottom. We provide a **Test Matching Tool** that allows you to quickly and intuitively see which keyword is triggered by a specific user input. The triggered keyword will be highlighted for easy identification.
+
+## Save Settings
+
+After completing all configurations and testing, please ensure you click **"Save Settings"** to apply the changes.
