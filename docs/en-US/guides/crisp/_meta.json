@@ -2,7 +2,7 @@
     {
         "type": "file",
         "name": "introduction",
-        "label": "产品介绍"
+        "label": "Product Introduction"
     },
     {
         "type": "divider"
@@ -10,37 +10,37 @@
     {
         "type": "file",
         "name": "quickstart",
-        "label": "创建项目"
+        "label": "Creating a Project"
     },
     {
         "type": "file",
         "name": "general",
-        "label": "基础设置"
+        "label": "Basic Settings"
     },
     {
         "type": "file",
         "name": "keyword",
-        "label": "自动回复"
+        "label": "Auto-Reply"
     },
     {
         "type": "file",
         "name": "ai",
-        "label": "智能回复"
+        "label": "Smart Reply"
     },
     {
         "type": "file",
         "name": "option",
-        "label": "选项管理"
+        "label": "Option Management"
     },
     {
         "type": "file",
         "name": "team",
-        "label": "成员管理"
+        "label": "Member Management"
     },
     {
         "type": "file",
         "name": "premium",
-        "label": "套餐升级"
+        "label": "Plan Upgrades"
     },
     {
         "type": "divider"
@@ -48,6 +48,6 @@
     {
         "type": "file",
         "name": "wallet",
-        "label": "钱包信息"
+        "label": "Wallet Information"
     }
 ]
